@@ -1,0 +1,64 @@
+
+/* Estilo básico para o carrossel */
+
+/* Personalizar a legenda do carrossel */
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.carousel-caption.d-none.d-md-block{
+    background-color: rgb(128, 128, 128, 0.9);
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+}
+
+/* Ajuste da altura para o carrossel */
+.carousel {
+    padding: 0rem; /*Espaçamento em branco envolta do carrossel*/
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilos adicionais para o botão de controle */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Cor da seta */
+}
+
+/* Adiciona bordas nas imagens (opcional) */
+.carousel-item img {
+    border: 5px solid #fff;
+}
+header {
+    position: relative;
+    padding: 0.6rem;
+    width: 100%;
+    background-color: #000000; /* Cor de fundo */
+    color: rgb(255, 0, 0);           /* Cor do texto */
+    text-align: center;
+  }
+    h2.titulo{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 3rem;
+    }
+.equipe{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+.grupo{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+.grupo{
+    font: 1rem sans-serif;
+    color: #ffffff;
+}
+.descricao{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
